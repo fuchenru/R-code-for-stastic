@@ -1,0 +1,29 @@
+Example:
+
+Sample Size: n = 5
+
+Sum ( Σx ) : 242
+
+Sum of squares ( Σx^2 ) : 12062
+
+
+->
+Ok. We know n=5
+X1,X2,X3,X4,X5
+
+Sum of the Σx is 242, means X1+X2+X3+X4+X5=242
+Sum of squares Σx^2 is 12062, means X1^2+X2^2+X3^2+X4^2+X5^2=12062
+
+Calculate Sample Variance:
+S^2 = (1/(n-1))(Σx^2-(Σx^2/n))
+
+We can use r code to easily solve this question:
+
+> n = 5
+> s = 242
+> ss = 12062
+> v = (1/(n-1))*(ss-(s^2)/n)
+> print(v)
+[1] 87.3
+
+Easy and neat!
