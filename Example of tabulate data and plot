@@ -1,0 +1,28 @@
+If we want to get the header of our dataset.
+
+> names(nutrition)
+ [1] "ID"            "Age"           "Smoke"         "Quetelet"      "Vitamin"      
+ [6] "Calories"      "Fat"           "Fiber"         "Alcohol"       "Cholesterol"  
+[11] "BetaDiet"      "RetinolDiet"   "BetaPlasma"    "RetinolPlasma" "Gender"       
+[16] "VitaminUse"    "PriorSmoke" 
+
+17 categorical data
+
+------------------------------------------------------------------------------------------------------------
+If we want to find the distribution of gender in data
+First, name our variable first:
+
+> gender = nutrition$Gender
+> gender
+-> Then it will pop up loads of data of each member's gender
+-> Then we want to sort it (tabulate it)
+
+> table(gender)
+It will show
+gender
+Female   Male 
+   273     42 
+   
+   
+Then, we can draw plots on them
+> barplot(table(gender))
