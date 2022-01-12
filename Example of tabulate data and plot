@@ -26,3 +26,13 @@ Female   Male
    
 Then, we can draw plots on them
 > barplot(table(gender))
+(To create the bar chart)
+
+> pie(table(gender))
+(To create the pie chart)
+------------------------------------------------------------------------------------------------------------
+We can also create a histogram
+First, we define age
+
+> age = nutrition$Age
+> hist(age)
