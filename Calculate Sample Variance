@@ -27,3 +27,12 @@ We can use r code to easily solve this question:
 [1] 87.3
 
 Easy and neat!
+------------------------------------------------------------------------
+
+#If we already know the numbers of the dataset
+#We can use function var() to calculate sample variance
+
+#define dataset
+> x <- c(1,2,3,4,5)
+> var(x)
+[1] 2.5
