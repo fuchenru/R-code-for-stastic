@@ -12,3 +12,6 @@ mean(x3)
 median(x1)
 median(x2)
 median(x3)
+
+#For mode in R
+names(table(X1))[which.max(table(X1))]
