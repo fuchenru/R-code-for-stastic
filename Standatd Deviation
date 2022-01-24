@@ -1,0 +1,3 @@
+x <- c(34,56,87,65,34,56,89)    #creates list 'x' with some values in it.
+ 
+sd(x)  #calculates the standard deviation of the values in the list 'x'
