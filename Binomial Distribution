@@ -1,0 +1,13 @@
+Functions for Binomial Distribution
+dbinom():
+dbinom(k, n, p)
+
+Example: dbinom(3, size = 13, prob = 1 / 6)
+
+
+Supopose we have 3 white balls and 2 balls.
+Draw 3 balls at random with replacement.
+x = white ball obsered.
+
+When x = 0
+P(x) = dbinom(0,3,p=0.6)
