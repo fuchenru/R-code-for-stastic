@@ -1,0 +1,11 @@
+ppois()
+This function is used for the illustration of cumulative probability function in an R plot. 
+The function ppois() calculates the probability of a random variable that will be equal to or less than a number.
+
+Ex:
+ppois(2, 3)
+ppois(6, 6)
+
+Output:  
+[1] 0.4231901
+[1] 0.6063028
